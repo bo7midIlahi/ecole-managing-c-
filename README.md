@@ -22,6 +22,12 @@ Ecole est ptrogram **CPP** qui utilise le concept de **Programation Oriente Obje
   ```
   ### github webpage:
    DOANWLOAD BOUTON
+- COMPILER:
+  
+  g++ main.cpp ecole_implementation.cpp -o program
+   ```
+  g++ main.cpp ecole_implementation.cpp -o program
+  ```
 
 ### 🛠️ ATTENTION
 - ❌ Il existe des **ERREUR DE COMPILATION** et **PAS** des **erreur de runtime/execution**
