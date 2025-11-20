@@ -174,7 +174,7 @@ class ecole_privee : public ecole{
         char* gerant;
         float capital;
     public: 
-        ecole_privee(const char* _nom_ = NULL, const char* _adr_ = NULL, int _ne_ = 0, const int* _eleve_ = NULL, const char* gerant_ = NULL, float capital_ = 0.0f)
+        ecole_privee(const char* _nom_ = NULL, const char* _adr_ = NULL, int _ne_ = 0, int* _eleve_ = NULL, const char* gerant_ = NULL, float capital_ = 0.0f)
         : ecole( _nom_, _adr_, _ne_, _eleve_), gerant(nullptr), capital(capital_){
             gerant = copy_str(gerant_);
         }
